@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "UntameVanillaTweaks",
+  "name": "UntameVanillaTweaks",
+  "description": "A minecraft mod that adds crafting for some vanilla items that makes them easier to obtain.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["untamemadamn"],
+  "credits": "Mojang for making Minecraft.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
