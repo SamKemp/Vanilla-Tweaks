@@ -1,0 +1,13 @@
+[12:12:00] [Client thread/INFO]: Setting user: Player484
+[12:12:06] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:12:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UntameVanillaTweaks
+[12:12:17] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:12:17] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[12:12:17] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:12:24] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:12:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:UntameVanillaTweaks
+[12:12:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:12:26] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[12:12:26] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:12:32] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:12:44] [Client thread/INFO]: Stopping!
