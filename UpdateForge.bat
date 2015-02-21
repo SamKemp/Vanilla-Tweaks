@@ -1,14 +1,13 @@
 @echo off
-title Minecraft Forge Setup - ECLPISE
-goto clean
-:clean
-call clean.bat
-goto setupdecomp
-:setupdecomp
-call SetupDecompWorkspace.bat
+title Build script + Git commit
+goto build
+:build
+call gradlew build
+goto commit
+:commit
+call commit.bat
 goto finished
 :finished
 cls
-echo Forge update compleate!
-echo Thank you for using the latest version of Forge
+echo Mod has been built and commit to git!
 pause

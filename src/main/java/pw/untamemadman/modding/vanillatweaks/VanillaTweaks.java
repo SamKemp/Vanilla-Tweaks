@@ -5,6 +5,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import pw.untamemadman.modding.vanillatweaks.init.Recipes;
 import pw.untamemadman.modding.vanillatweaks.proxy.CommonProxy;
 import pw.untamemadman.modding.vanillatweaks.reference.Reference;
 
@@ -30,7 +31,7 @@ public class VanillaTweaks
     @Mod.EventHandler
     public void Init (FMLInitializationEvent event)
     {
-
+        Recipes.init();
     }
 
     @Mod.EventHandler
