@@ -1,16 +1,16 @@
 [
 {
-  "modid": "UntameVanillaTweaks",
-  "name": "UntameVanillaTweaks",
+  "modid": "mod_VanillaTweaks",
+  "name": "Vanilla Tweaks",
   "description": "A minecraft mod that adds crafting for some vanilla items that makes them easier to obtain.",
-  "version": "${version}",
+  "version": "1.0",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://modding.untamemadman.pw/VanillaTweaks",
   "updateUrl": "",
   "authorList": ["untamemadamn"],
-  "credits": "Mojang for making Minecraft.",
-  "logoFile": "",
+  "credits": "Mojang for making Minecraft.",7
+  "logoFile": "/assets/vanillatweaks/textures/logo.png",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["Forge", "FML"]
 }
 ]
