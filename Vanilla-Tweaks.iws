@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f97e2b4-18a2-4b82-ab07-8fa6039c9e40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vanilla-Tweaks.iws" afterPath="$PROJECT_DIR$/Vanilla-Tweaks.iws" />
-    </list>
+    <list default="true" id="5f97e2b4-18a2-4b82-ab07-8fa6039c9e40" name="Default" comment="" />
     <ignored path="Vanilla-Tweaks.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1177,7 +1175,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424561306704</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added crafting for Skulls and conversion between wood types">
+      <created>1424608584251</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424608584251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
