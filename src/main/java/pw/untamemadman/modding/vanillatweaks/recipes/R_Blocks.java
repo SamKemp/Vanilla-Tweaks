@@ -15,5 +15,8 @@ public class R_Blocks
     {
         //Sponge
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.sponge), "   ", "ZXZ", " C ", 'Z', new ItemStack(Items.string), 'X', new ItemStack(Blocks.wool), 'C', new ItemStack(Items.slime_ball));
+
+        //Wet Sponge
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.sponge, 1, 1), " V ", "ZXZ", " C ", 'Z', new ItemStack(Items.string), 'X', new ItemStack(Blocks.wool), 'C', new ItemStack(Items.slime_ball), 'V', new ItemStack(Items.water_bucket));
     }
 }

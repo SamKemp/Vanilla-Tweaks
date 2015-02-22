@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f97e2b4-18a2-4b82-ab07-8fa6039c9e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/vanillatweaks/textures/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/handler/ConfigHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/client/gui/GuiFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/utility/LogHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/client/gui/ModGuiConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Skulls.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Wood.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-02-21-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-02-21-1.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-02-21-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-02-21-2.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.0/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/SpawnEggs.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/SpawnEggs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Blocks.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Blocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Items.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Items.java" />
+      <change type="MODIFICATION" beforePath="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\java\pw\untamemadman\modding\vanillatweaks\reference\Reference.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/reference/Reference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vanilla-Tweaks.iws" afterPath="$PROJECT_DIR$/Vanilla-Tweaks.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/VanillaTweaks.java" afterPath="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/VanillaTweaks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
@@ -83,38 +93,31 @@
       <file leaf-file-name="VanillaTweaks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/VanillaTweaks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="731">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="816">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding>
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/reference/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36074272" vertical-offset="0" max-vertical-offset="377">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mcmod.info" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+      <file leaf-file-name="Wood.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Wood.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpawnEggs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/SpawnEggs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1802">
-              <caret line="97" column="270" selection-start-line="97" selection-start-column="270" selection-end-line="97" selection-end-column="270" />
+            <state vertical-scroll-proportion="0.8313492" vertical-offset="108" max-vertical-offset="680">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -740,17 +743,26 @@
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/proxy/ServerProxy.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Blocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Items.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/SpawnEggs.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/handeler/ConfigHandeler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/handeler/ConfigHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/client/gui/ModGuiConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/utility/LogHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/utility/NBTHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/handler/ConfigHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/client/gui/GuiFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Skulls.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Items.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Blocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/VanillaTweaks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/SpawnEggs.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
-        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Wood.java" />
       </list>
     </option>
   </component>
@@ -779,7 +791,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -841,11 +853,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets.vanillatweaks" />
+              <option name="myItemId" value="pw.untamemadman.modding.vanillatweaks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vanilla-Tweaks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vanilla-Tweaks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw.untamemadman.modding.vanillatweaks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vanilla-Tweaks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vanilla-Tweaks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw.untamemadman.modding.vanillatweaks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -887,13 +931,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\java\pw\untamemadman\modding\vanillatweaks\utility" />
+      <recent name="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\java\pw\untamemadman\modding\vanillatweaks\client/gui" />
       <recent name="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\resources\assets\vanillatweaks\textures" />
       <recent name="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\resources\assets\vanillatweaks\sounds" />
       <recent name="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\resources\assets\vanillatweaks\models" />
-      <recent name="M:\untamemadman\Minecraft Mod\Vanilla-Tweaks\src\main\resources\assets\vanillatweaks\lang" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="assets.vanillatweaks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pw.untamemadman.modding.vanillatweaks.handeler" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
@@ -1148,7 +1196,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424557738220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Making some adjustments to MCmod.info file">
+      <created>1424561306704</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1424561306704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1173,7 +1227,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="835" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1185,10 +1239,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4238976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22475107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1247,7 +1301,8 @@
     <MESSAGE value="Started work. Done basics of main mod file, references and Proxy's" />
     <MESSAGE value="Added (some) Spawn Egg recipes." />
     <MESSAGE value="Changed some files for neetness" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed some files for neetness" />
+    <MESSAGE value="Making some adjustments to MCmod.info file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making some adjustments to MCmod.info file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1260,7 +1315,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1273,7 +1328,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="646">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,7 +1365,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="816">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,7 +1394,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="816">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,14 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19144145" vertical-offset="0" max-vertical-offset="444">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1292">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,26 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Blocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="16" column="190" selection-start-line="16" selection-start-column="190" selection-end-line="16" selection-end-column="190" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Items.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41087613" vertical-offset="0" max-vertical-offset="662">
-          <caret line="16" column="229" selection-start-line="16" selection-start-column="229" selection-end-line="16" selection-end-column="229" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/SpawnEggs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1802">
@@ -1462,27 +1498,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/VanillaTweaks.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="731">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.54111403" vertical-offset="153" max-vertical-offset="1292">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.54111403" vertical-offset="0" max-vertical-offset="377">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/utility/LogHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33864543" vertical-offset="0" max-vertical-offset="502">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/client/gui/ModGuiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6257669" vertical-offset="0" max-vertical-offset="489">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/client/gui/GuiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9820717" vertical-offset="0" max-vertical-offset="663">
+          <caret line="29" column="86" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#696#697#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/handler/ConfigHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0159363" vertical-offset="0" max-vertical-offset="765">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Skulls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74206346" vertical-offset="51" max-vertical-offset="629">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/R_Blocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43849206" vertical-offset="0" max-vertical-offset="504">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/reference/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36074272" vertical-offset="0" max-vertical-offset="377">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1299/snapshot_nodoc/20141130/forgeSrc-1.8-11.14.0.1299-sources.jar!/net/minecraftforge/fml/common/registry/GameRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2807" max-vertical-offset="6256">
+          <caret line="238" column="47" selection-start-line="238" selection-start-column="47" selection-end-line="238" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/VanillaTweaks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="816">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pw/untamemadman/modding/vanillatweaks/recipes/Wood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8313492" vertical-offset="108" max-vertical-offset="680">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
