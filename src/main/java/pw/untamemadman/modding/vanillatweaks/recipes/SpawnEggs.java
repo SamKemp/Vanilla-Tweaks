@@ -2,6 +2,7 @@ package pw.untamemadman.modding.vanillatweaks.recipes;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -60,8 +61,10 @@ public class SpawnEggs
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 66), "ZCV", "BXB", "NML", 'Z', new ItemStack(Items.spider_eye), 'C', new ItemStack(Items.glass_bottle), 'V', new ItemStack(Items.gunpowder), 'B', new ItemStack(Items.stick), 'N', new ItemStack(Items.glowstone_dust), 'M', new ItemStack(Items.redstone), 'L', new ItemStack(Items.sugar), 'X', new ItemStack(Items.egg));
 
         //Endermite
+        GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 67), "ZZZ", "CXC", "VVV", 'Z', new ItemStack(Blocks.stone), 'C', new ItemStack(Items.ender_eye), 'V', new ItemStack(Items.ender_pearl), 'X', new ItemStack(Items.egg));
 
         //Guardian
+        GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 68), "ZZZ", "ZXZ", "ZZZ", 'Z', new ItemStack(Items.prismarine_shard), 'X', new ItemStack(Items.egg));
 
         //Pig
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 90), "ZZZ", "ZXZ", "ZZZ", 'Z', new ItemStack(Items.porkchop), 'X', new ItemStack(Items.egg));
@@ -81,12 +84,14 @@ public class SpawnEggs
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 94), "ZZZ", "ZXZ", "ZZZ", 'Z', new ItemStack(Items.dye), 'X', new ItemStack(Items.egg));
 
         //Wolf
+        GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 95), "ZZZ", "VXV", "CVC", 'Z', new ItemStack(Items.dye, 1, 15), 'V', new ItemStack(Items.string), 'C', new ItemStack(Items.rabbit_foot), 'X', new ItemStack(Items.egg));
 
         //Mooshroom
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 96), "ZCV", "ZXV", "ZBV", 'Z', new ItemStack(Items.beef), 'V', new ItemStack(Items.leather), 'C', new ItemStack(Blocks.red_mushroom), 'B', new ItemStack(Blocks.brown_mushroom), 'X', new ItemStack(Items.egg));
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 96), "ZBV", "ZXV", "ZCV", 'Z', new ItemStack(Items.beef), 'V', new ItemStack(Items.leather), 'C', new ItemStack(Blocks.red_mushroom), 'B', new ItemStack(Blocks.brown_mushroom), 'X', new ItemStack(Items.egg));
 
         //Ocelot
+        GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 98), "ZCZ", "VXV", "BNB", 'Z', new ItemStack(Items.fish), 'C', new ItemStack(Items.cooked_fish), 'V', new ItemStack(Items.fish, 1, 3), 'B', new ItemStack(Items.fish, 1, 2), 'N', new ItemStack(Blocks.grass), 'X', new ItemStack(Items.egg));
 
         //Horse
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 100), "ZZZ", "ZXZ", "CVC", 'Z', new ItemStack(Items.leather), 'V', new ItemStack(Items.bone), 'C', new ItemStack(Items.rabbit_foot), 'X', new ItemStack(Items.egg));
