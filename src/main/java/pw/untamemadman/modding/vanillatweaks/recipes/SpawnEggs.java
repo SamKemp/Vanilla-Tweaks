@@ -101,5 +101,11 @@ public class SpawnEggs
 
         //Villager
         GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 120), "ZCV", "CXC", "BCN", 'Z', new ItemStack(Items.potato), 'C', new ItemStack(Items.emerald), 'V', new ItemStack(Items.bread), 'B', new ItemStack(Items.carrot), 'N', new ItemStack(Items.pumpkin_pie), 'X', new ItemStack(Items.egg));
+
+        //Snow Golem
+        GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 97), " C ", "ZXZ", "ZZZ", 'C', new ItemStack(Blocks.pumpkin), 'Z', new ItemStack(Items.snowball), 'X', new ItemStack(Items.egg));
+
+        //Iron Golem
+        GameRegistry.addShapedRecipe(new ItemStack(Items.spawn_egg, 1, 99), " C ", "VXV", "ZZZ", 'C', new ItemStack(Blocks.pumpkin), 'V', new ItemStack(Blocks.iron_block), 'Z', new ItemStack(Items.iron_ingot), 'X', new ItemStack(Items.egg));
     }
 }
