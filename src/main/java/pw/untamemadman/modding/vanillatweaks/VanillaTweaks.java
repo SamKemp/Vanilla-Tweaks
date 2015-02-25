@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import pw.untamemadman.modding.vanillatweaks.handler.ConfigHandler;
+import pw.untamemadman.modding.vanillatweaks.proxy.IProxy;
 import pw.untamemadman.modding.vanillatweaks.recipes.*;
 import pw.untamemadman.modding.vanillatweaks.proxy.CommonProxy;
 import pw.untamemadman.modding.vanillatweaks.reference.Reference;
@@ -23,7 +24,7 @@ public class VanillaTweaks
     public static VanillaTweaks instances;
 
     @SidedProxy(clientSide = Reference.ClientProxyClass, serverSide = Reference.ServerProxyClass)
-    public static CommonProxy proxy;
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
