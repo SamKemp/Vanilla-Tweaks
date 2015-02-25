@@ -11,6 +11,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class R_Blocks
 {
+    public static final int Wildcard_TYPE = Short.MAX_VALUE;
+
     public static void init()
     {
         //Sponge
@@ -18,5 +20,8 @@ public class R_Blocks
 
         //Wet Sponge
         GameRegistry.addShapedRecipe(new ItemStack(Blocks.sponge, 1, 1), " V ", "ZXZ", " C ", 'Z', new ItemStack(Items.string), 'X', new ItemStack(Blocks.wool), 'C', new ItemStack(Items.slime_ball), 'V', new ItemStack(Items.water_bucket));
+
+        //Bedrock
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.bedrock), "ZZZ", "ZXZ", "ZZZ", 'Z', new ItemStack(Blocks.stone), 'X', new ItemStack(Items.bed));
     }
 }
