@@ -5,6 +5,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import org.omg.CORBA._IDLTypeStub;
 
 /**
  * Created by untamemadman on 2/21/2015.
@@ -19,5 +20,8 @@ public class R_Items
 
         //Leather
         GameRegistry.addSmelting(new ItemStack(Items.rotten_flesh), new ItemStack(Items.leather), 1);
+
+        //Ender Pearl
+        GameRegistry.addShapedRecipe(new ItemStack(Items.ender_pearl), "CCC", "ZXZ", " Z ", 'X', new ItemStack(Items.slime_ball), 'C', new ItemStack(Items.dye, 1, 4), 'Z', new ItemStack(Items.blaze_powder));
     }
 }
