@@ -1,5 +1,6 @@
 package pw.untamemadman.modding.vanillatweaks;
 
+import jdk.nashorn.internal.runtime.regexp.joni.Config;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -9,7 +10,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import pw.untamemadman.modding.vanillatweaks.handler.ConfigHandler;
 import pw.untamemadman.modding.vanillatweaks.proxy.IProxy;
 import pw.untamemadman.modding.vanillatweaks.recipes.*;
-import pw.untamemadman.modding.vanillatweaks.proxy.CommonProxy;
 import pw.untamemadman.modding.vanillatweaks.reference.Reference;
 import pw.untamemadman.modding.vanillatweaks.utility.LogHelper;
 
@@ -37,16 +37,29 @@ public class VanillaTweaks
     @Mod.EventHandler
     public void Init (FMLInitializationEvent event)
     {
-        SpawnEggs.init();
-        Skulls.init();
-        Wood.init();
+        if(ConfigHandler.ALL_SpawnEggsRecipe)
+        {
+            SpawnEggs.init();
+        }
+        if(ConfigHandler.All_SkullsRecipe)
+        {
+            Skulls.init();
+        }
+        if(ConfigHandler.WoodRecipe)
+        {
+            Wood.init();
+        }
+        if(ConfigHandler.All_SpawnersRecipe)
+        {
+            Spawners.init();
+        }
         R_Blocks.init();
         R_Items.init();
         LogHelper.info("Initialization Complete!");
     }
 
     @Mod.EventHandler
-    public void postInit (FMLPostInitializationEvent even)
+    public void postInit (FMLPostInitializationEvent event)
     {
         LogHelper.info("Post Initialization Complete!");
     }

@@ -1,9 +1,9 @@
 package pw.untamemadman.modding.vanillatweaks.recipes;
 
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import pw.untamemadman.modding.vanillatweaks.handler.ConfigHandler;
 
 /**
  * Created by untamemadman on 2/22/2015.
@@ -14,18 +14,33 @@ public class Skulls
     public static void init()
     {
         //Skeleton Skull
-        GameRegistry.addShapedRecipe(new ItemStack(Items.skull), "XXX", "XXX", "X X", 'X', new ItemStack(Items.bone));
+        if(ConfigHandler.Skeleton_SkullsRecipe)
+        {
+            GameRegistry.addShapedRecipe(new ItemStack(Items.SKULL), "XXX", "XXX", "X X", 'X', new ItemStack(Items.BONE));
+        }
 
         //Wither Skeleton Skull
-        GameRegistry.addSmelting(new ItemStack(Items.skull), new ItemStack(Items.skull, 1, 1), 5);
+        if(ConfigHandler.WitherSkeleton_SkullsRecipe)
+        {
+            GameRegistry.addSmelting(new ItemStack(Items.SKULL), new ItemStack(Items.SKULL, 1, 1), 5);
+        }
 
         //Zombie Head
-        GameRegistry.addShapedRecipe(new ItemStack(Items.skull, 1, 2), "XXX", "XZX", "   ", 'X', new ItemStack(Items.rotten_flesh), 'Z', new ItemStack(Items.skull));
+        if(ConfigHandler.Zombie_SkullsRecipe)
+        {
+            GameRegistry.addShapedRecipe(new ItemStack(Items.SKULL, 1, 2), "XXX", "XZX", "   ", 'X', new ItemStack(Items.ROTTEN_FLESH), 'Z', new ItemStack(Items.SKULL));
+        }
 
         //Head
-        GameRegistry.addShapedRecipe(new ItemStack(Items.skull, 1, 3), "XXX", "XZX", "   ", 'X', new ItemStack(Items.leather), 'Z', new ItemStack(Items.skull));
+        if(ConfigHandler.Head_SkullsRecipe)
+        {
+            GameRegistry.addShapedRecipe(new ItemStack(Items.SKULL, 1, 3), "XXX", "XZX", "   ", 'X', new ItemStack(Items.LEATHER), 'Z', new ItemStack(Items.SKULL));
+        }
 
         //Creeper Head
-        GameRegistry.addShapedRecipe(new ItemStack(Items.skull, 1, 4), "XXX", "XZX", "CCC", 'X', new ItemStack(Items.rotten_flesh), 'Z', new ItemStack(Items.skull), 'C', new ItemStack(Items.gunpowder));
+        if(ConfigHandler.Creeper_SkullsRecipe)
+        {
+            GameRegistry.addShapedRecipe(new ItemStack(Items.SKULL, 1, 4), "XXX", "XZX", "CCC", 'X', new ItemStack(Items.ROTTEN_FLESH), 'Z', new ItemStack(Items.SKULL), 'C', new ItemStack(Items.GUNPOWDER));
+        }
     }
 }

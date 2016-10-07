@@ -16,12 +16,12 @@ public class R_Blocks
     public static void init()
     {
         //Sponge
-        GameRegistry.addShapedRecipe(new ItemStack(Blocks.sponge), "   ", "ZXZ", " C ", 'Z', new ItemStack(Items.string), 'X', new ItemStack(Blocks.wool), 'C', new ItemStack(Items.slime_ball));
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.SPONGE), "   ", "ZXZ", " C ", 'Z', new ItemStack(Items.STRING), 'X', new ItemStack(Blocks.WOOL), 'C', new ItemStack(Items.SLIME_BALL));
 
         //Wet Sponge
-        GameRegistry.addShapedRecipe(new ItemStack(Blocks.sponge, 1, 1), " V ", "ZXZ", " C ", 'Z', new ItemStack(Items.string), 'X', new ItemStack(Blocks.wool), 'C', new ItemStack(Items.slime_ball), 'V', new ItemStack(Items.water_bucket));
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.SPONGE, 1, 1), " V ", "ZXZ", " C ", 'Z', new ItemStack(Items.STRING), 'X', new ItemStack(Blocks.WOOL), 'C', new ItemStack(Items.SLIME_BALL), 'V', new ItemStack(Items.WATER_BUCKET));
 
         //Bedrock
-        GameRegistry.addShapedRecipe(new ItemStack(Blocks.bedrock), "ZZZ", "ZXZ", "ZZZ", 'Z', new ItemStack(Blocks.stone), 'X', new ItemStack(Items.bed));
+        GameRegistry.addShapedRecipe(new ItemStack(Blocks.BEDROCK), "ZZZ", "ZXZ", "ZZZ", 'Z', new ItemStack(Blocks.STONE), 'X', new ItemStack(Items.BED));
     }
 }
